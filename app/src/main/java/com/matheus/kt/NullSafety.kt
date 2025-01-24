@@ -13,7 +13,7 @@ class Carro {
 fun main() {
 
     var carro: Carro? = null
-    carro = carro()
+    carro = carro
 
     val cor = carro?.cor ?: "cor padrão"
 
