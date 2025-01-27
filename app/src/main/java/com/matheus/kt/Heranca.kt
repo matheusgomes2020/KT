@@ -1,14 +1,14 @@
 package com.matheus.kt
 
-open class Animal {
+/*
+abstract class Animal {
 
     var cor = "Amarelo"
     var tamanho = ""
     var peso = 0.0
 
     open fun correr() = println("Correr como um ")
-    open fun dormir() = println("dotmir")
-
+    abstract fun dormir()
 }
 
 class Cao : Animal() {
@@ -18,6 +18,8 @@ class Cao : Animal() {
         println("cão de 4 patas")
     }
 
+    override fun dormir() = println("Dormir como um cão")
+
 }
 
 class Passaro : Animal() {
@@ -26,15 +28,24 @@ class Passaro : Animal() {
         super.correr()
         println("pássaro de 2 perninhas")
     }
+
+    override fun dormir() = println("Dormir como um pássaro")
 }
 
+
+ */
 fun main (){
 
+    /*
     val cao = Cao()
     cao.correr()
+    cao.dormir()
     //cao.latir()
 
     val passaro = Passaro()
     passaro.correr()
+    passaro.dormir()
     //passaro.voar()
+
+     */
 }
