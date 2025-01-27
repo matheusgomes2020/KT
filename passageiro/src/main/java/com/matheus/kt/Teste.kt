@@ -1,4 +1,9 @@
 package com.matheus.kt
+import com.matheus.recursos.Usuario
+
+fun main(){
+    val usuario = Usuario()
+}
 
 //fun main() {
 //

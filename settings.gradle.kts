@@ -20,5 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KT"
-include(":app")
- 
+include(":motorista")
+include(":passageiro2")
+include(":recursos")
